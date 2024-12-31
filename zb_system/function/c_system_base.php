@@ -18,6 +18,10 @@ defined('ZBP_HOOKERROR') || define('ZBP_HOOKERROR', true);
 defined('ZBP_OBSTART') || define('ZBP_OBSTART', true);
 defined('ZBP_SAFEMODE') || define('ZBP_SAFEMODE', false);
 
+if (version_compare(PHP_VERSION, '8.0.0') < 0) {
+    exit('ZBlogPHP2 requires PHP v8.0.0 or higher - you are running v' . PHP_VERSION);
+}
+
 //强制开启debug模式，需要开启时请打开注释
 //defined('ZBP_DEBUGMODE') || define('ZBP_DEBUGMODE', true);
 

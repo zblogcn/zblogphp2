@@ -22,7 +22,7 @@ $zbpvers['151626']='1.5 Zero Build 151626';
 define('ZC_VERSION_MAJOR', '2');
 define('ZC_VERSION_MINOR', '0');
 define('ZC_VERSION_BUILD', '0');
-define('ZC_VERSION_COMMIT', '4000');
+define('ZC_VERSION_COMMIT', '10002');
 define('ZC_VERSION_CODENAME', 'Alpha');
 define('ZC_VERSION', ZC_VERSION_MAJOR . '.' . ZC_VERSION_MINOR . '.' . ZC_VERSION_BUILD . '.' . ZC_VERSION_COMMIT);
 if (strcasecmp(ZC_VERSION_CODENAME, 'Beta') == 0 || strcasecmp(ZC_VERSION_CODENAME, 'Alpha') == 0) {
